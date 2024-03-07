@@ -42,7 +42,7 @@ propriedade2: valor;
 
 }
 
-#### externa(mais usado!)
+#### externa (mais usado!)
 
 é criado um arquivo de extensão CSS dedicado as regras de formatação. Este aquivo é então "conectado" às páginas HTML.
 
