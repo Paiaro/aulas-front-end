@@ -22,11 +22,11 @@ em geral css serve para:
 
 ### Formas de implementação
 
-#### inline
+#### inline (não recomendado)
 
 o CSS é aplicado diretamente em cada tag HTML.
 
-#### interna/onpage
+#### interna/onpage (quebra o galho)
 
 o CSS é criado usando regras (com seletores, propriedades, valores) dentro da própria página que queremos formatar.
 
