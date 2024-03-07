@@ -10,8 +10,22 @@
 
 ## CSS
 
-1. estilos
-2. alinhamento
+Linguagem de estilização que "casa" com elementos do html.
+
+em geraml css serve para:
+
+1. estilos (cor, sombra, borda, etc...)
+2. alinhamento e espaçamentos
 3. design responsivo
+4. animações e efeitos especiais
+
+
+### Formas de implementação
+
+#### inline
+
+#### interna/onpage
+
+#### externa
 
 ## JS
