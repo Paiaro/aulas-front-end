@@ -12,7 +12,7 @@
 
 Linguagem de estilização que "casa" com elementos do html.
 
-em geraml css serve para:
+em geral css serve para:
 
 1. estilos (cor, sombra, borda, etc...)
 2. alinhamento e espaçamentos
