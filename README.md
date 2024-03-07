@@ -30,7 +30,17 @@ o CSS é aplicado diretamente em cada tag HTML.
 
 o CSS é criado usando regras (com seletores, propriedades, valores) dentro da própria página que queremos formatar.
 
-as regras vão valer para todos os elementos/tags desta página
+as regras vão valer para todos os elementos/tags desta página.
+
+#### como fazer uma regra CSS?
+
+seletor {propriedade: valor; }
+
+seletor {propriedade0: valor;
+propriedade1: valor;
+propriedade2: valor;
+
+}
 
 #### externa(mais usado!)
 
