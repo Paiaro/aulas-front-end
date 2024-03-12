@@ -1,5 +1,49 @@
 /* regras de formatação (CSS) */
 
+
+
+h1 {
+
+    /* exercicio
+    criar uma nova regra CSS para estilizar o elemento h1 com as seguintes caracteristicas: 
+    
+    -fonte: impact, verdana, arial e sans-serif
+    -cor de fundo: escura com um pouco de transparencia
+    -cor do texto: claro
+    -espaçamento: interno APENAS para cima e para baixo
+    -letras maiusculas
+    -texto alinhado no meio
+    -bordas arredondadas apenas nos cantos superiores
+    -sombra no texto*/
+
+
+    font-family: 'Impact', 'Verdana', 'Arial', sans-serif;
+    /* Define a fonte */
+    background-color: rgba(0, 0, 0, 0.8);
+    /* Cor de fundo escura com transparência */
+    color: white;
+    padding-top: 20px;
+    /* Espaçamento interno para cima */
+    padding-bottom: 20px;
+    /* Espaçamento interno para baixo */
+    text-transform: uppercase;
+    /* Letras maiúsculas */
+    text-align: center;
+    /* Texto alinhado no meio */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    /* Bordas arredondadas apenas nos cantos superiores */
+    text-shadow: 2px 2px 5px orange;
+    /* define a sombra do titulo */
+
+
+
+}
+
+
+
+
+
 body {
 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -13,11 +57,11 @@ body {
 
 div {
 
-    background-color: black;
+    background-color: white;
     width: 70%;
     margin: auto;
     border-radius: 1%;
-    
+
     /* padding = espaçamento interno */
 
     padding: 1%;
@@ -29,7 +73,7 @@ div {
 }
 
 p {
-    color: aliceblue;
+    color: black;
 
 
 }
