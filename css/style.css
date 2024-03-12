@@ -1,7 +1,7 @@
 /* regras de formatação (CSS) */
 
 body {
-
+    
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: x-large;
 
@@ -9,7 +9,19 @@ body {
     background-image: url(../imagens/back\ ground\ polygon.jpg);
     background-attachment: fixed;
     background-size: cover;
-   
-    
+}
+
+div{
+
+    background-color: black;
+    width: 70%;
+    margin: auto;
+
+
+}
+
+p {
+color: aliceblue;
+
 
 }
