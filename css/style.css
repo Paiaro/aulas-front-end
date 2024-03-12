@@ -1,0 +1,15 @@
+/* regras de formatação (CSS) */
+
+body {
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-large;
+
+        /*repetir imagem  background: repeat-x; */
+    background-image: url(../imagens/back\ ground\ polygon.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+   
+    
+
+}
