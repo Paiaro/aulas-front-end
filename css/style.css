@@ -26,5 +26,7 @@ color: aliceblue;
 
 }
     img{
-border-radius: 50%;
+        /* max-width faz ajustar a imagem de acordo com a tela */
+        max-width: 100%;
+        border-radius: 50%;
     }
