@@ -22,14 +22,18 @@ h1 {
     background-color: rgba(0, 0, 0, 0.8);
     /* Cor de fundo escura com transparência */
     color: white;
-    padding-top: 20px;
+    padding-top: 15px;
     /* Espaçamento interno para cima */
-    padding-bottom: 20px;
+    padding-bottom: 15px;
     /* Espaçamento interno para baixo */
     text-transform: uppercase;
     /* Letras maiúsculas */
     text-align: center;
     /* Texto alinhado no meio */
+
+    /* versão abreviada da borda */
+    /* border-radius: 10px 10px 0 0; */
+
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     /* Bordas arredondadas apenas nos cantos superiores */
@@ -40,6 +44,19 @@ h1 {
 
 }
 
+h2{
+
+        font-size: 20px;
+        border-bottom-style: solid;
+        border-bottom-width: 5px;
+        border-left-style: solid;
+        border-left-width: 5px;
+        border-left-color: black;
+        /* margin-left: 30px; */
+        padding-left: 5px;
+
+
+}
 
 
 
