@@ -1,32 +1,48 @@
 /* regras de formatação (CSS) */
 
 body {
-    
+
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: x-large;
 
-        /*repetir imagem  background: repeat-x; */
+    /*repetir imagem  background: repeat-x; */
     background-image: url(../imagens/back\ ground\ polygon.jpg);
     background-attachment: fixed;
     background-size: cover;
 }
 
-div{
+div {
 
     background-color: black;
     width: 70%;
     margin: auto;
+    border-radius: 1%;
+    
+    /* padding = espaçamento interno */
 
+    padding: 1%;
 
+    /* sombra em X,Y e para os primeiros valores o terceiro é a intensidade/suavização */
+
+    box-shadow: royalblue 10px -10px 50px,
+        pink 35px 50px 100px;
 }
 
 p {
-color: aliceblue;
+    color: aliceblue;
 
 
 }
-    img{
-        /* max-width faz ajustar a imagem de acordo com a tela */
-        max-width: 100%;
-        border-radius: 50%;
-    }
+
+img {
+    /* max-width faz ajustar a imagem de acordo com a tela */
+
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+figure {
+    /* qualquer coisa dentro do figure pode ser alinhada ou deslocada em qualquer posição */
+    text-align: center;
+
+}
