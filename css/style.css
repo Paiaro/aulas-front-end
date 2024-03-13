@@ -121,6 +121,7 @@ figure img {
     transition: 0.5s;
     transform: scale(0.9);
     filter: grayscale(100%);
+    
 }
 
 /* hover (passar o mouse) */
