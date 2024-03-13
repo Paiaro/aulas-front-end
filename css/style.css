@@ -4,7 +4,7 @@ altera o comportamento do CSS e evita os problemas do width, height, padding e b
 *{box-sizing: border-box;}
 
 h1 {
-
+ margin: 0;
     /* exercicio
     criar uma nova regra CSS para estilizar o elemento h1 com as seguintes caracteristicas: 
     
@@ -185,8 +185,14 @@ nav a {
 }
 /* regra para o estado de acionamento dos links */
 
-nav a:hover{
+nav a:hover, nav a:focus  {
 background-color: grey;
  /* transition: 5s; */
  transform: scale(1);
+}
+nav a:first-child{
+
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+
 }
