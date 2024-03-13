@@ -44,10 +44,10 @@ h1 {
     letter-spacing: 3px;
     /* tirar o "negrito" */
     font-weight: normal;
-    
+
     /* propriedades com prefixo -webkit, -moz, -o-
     propriedades relacionada a alguns navegadores. */
--webkit-text-stroke: 1px blueviolet;
+    -webkit-text-stroke: 1px blueviolet;
 }
 
 h2 {
@@ -111,5 +111,30 @@ img {
 figure {
     /* qualquer coisa dentro do figure pode ser alinhada ou deslocada em qualquer posição */
     text-align: center;
+
+}
+
+/* seletor descendente (consegue ser mais especifico "contexto") */
+
+nav a {
+
+    text-decoration: none;
+
+
+}
+
+figure img {
+
+
+    transition: 0.5s;
+    transform: scale(0.9);
+    filter: grayscale(100%);
+}
+
+/* hover (passar o mouse) */
+figure img:hover {
+    transform: scale(1) rotateY(360deg);
+    filter: grayscale(0);
+
 
 }
