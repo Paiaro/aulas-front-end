@@ -95,11 +95,6 @@ div {
         pink 35px 50px 100px;
 }
 
-p {
-    color: black;
-
-
-}
 
 img {
     /* max-width faz ajustar a imagem de acordo com a tela */
@@ -137,4 +132,26 @@ figure img:hover {
     filter: grayscale(0);
 
 
+}
+
+/* seletor agrupado (grupo de seletores) */
+p,
+li {
+    font-size: 20px;
+
+}
+
+
+/* seletor classe */
+.center {
+    text-align: center;
+}
+.shadow{
+    text-shadow: royalblue 5px 5px 10px;
+}
+.details{
+    background-color: black;
+    color: white;
+    padding: 3px;
+    border-radius: 4px;
 }
