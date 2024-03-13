@@ -33,7 +33,7 @@ o CSS é criado usando regras (com seletores, propriedades, valores) dentro da p
 as regras vão valer para todos os elementos/tags desta página.
 
 #### como fazer uma regra CSS?
-```css
+```Css
 seletor {propriedade: valor; }
 
 seletor {propriedade0: valor;
