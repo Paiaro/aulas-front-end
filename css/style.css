@@ -1,6 +1,7 @@
 /* regras de formatação (CSS) */
-
-
+/* seletor universal  (*{seletor})
+altera o comportamento do CSS e evita os problemas do width, height, padding e border ao memso tempo. */
+*{box-sizing: border-box;}
 
 h1 {
 
@@ -77,6 +78,7 @@ body {
     background-attachment: fixed;
     background-size: cover;
 }
+
 /* # é usado para IDs (item de identificação) */
 #conteiner {
 
@@ -112,12 +114,6 @@ figure {
 
 /* seletor descendente (consegue ser mais especifico "contexto") */
 
-nav a {
-
-    text-decoration: none;
-
-
-}
 
 figure img {
 
@@ -147,10 +143,12 @@ li {
 .center {
     text-align: center;
 }
-.shadow{
+
+.shadow {
     text-shadow: royalblue 5px 5px 10px;
 }
-.details{
+
+.details {
     background-color: black;
     color: white;
     padding: 3px;
@@ -162,5 +160,27 @@ li {
     background-color: #ffa781;
     padding: 8px;
     border-radius: 4px;
-    margin-bottom: 4px;
+    margin-bottom: 20px;
+}
+
+/* regras para menu e seus links */
+nav {
+    text-decoration: none;
+    text-align: center;
+}
+
+/* regra para estado inicial dos links */
+nav a {
+    color: #ffa781;
+    font-weight: bold;
+    background-color: #5b0e2d;
+    display: inline-block;
+    width: 50%;
+    /* padding-block: 2%; */
+    width: 48%;
+    padding: 2%;
+    /* border:solid 10px; */
+    
+
+
 }
