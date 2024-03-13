@@ -159,7 +159,8 @@ li {
 
 .details-back {
 
-    background-color: aquamarine;
+    background-color: #ffa781;
     padding: 8px;
     border-radius: 4px;
+    margin-bottom: 4px;
 }
