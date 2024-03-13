@@ -77,8 +77,8 @@ body {
     background-attachment: fixed;
     background-size: cover;
 }
-
-div {
+/* # é usado para IDs (item de identificação) */
+#conteiner {
 
     background-color: white;
     width: 70%;
@@ -94,6 +94,7 @@ div {
     box-shadow: royalblue 10px -10px 50px,
         pink 35px 50px 100px;
 }
+
 
 
 img {
@@ -153,5 +154,12 @@ li {
     background-color: black;
     color: white;
     padding: 3px;
+    border-radius: 4px;
+}
+
+.details-back {
+
+    background-color: aquamarine;
+    padding: 8px;
     border-radius: 4px;
 }
