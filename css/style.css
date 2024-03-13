@@ -180,7 +180,13 @@ nav a {
     width: 48%;
     padding: 2%;
     /* border:solid 10px; */
-    
+    transform: scale(0.9);
+    transition: 1s;
+}
+/* regra para o estado de acionamento dos links */
 
-
+nav a:hover{
+background-color: grey;
+ /* transition: 5s; */
+ transform: scale(1);
 }
