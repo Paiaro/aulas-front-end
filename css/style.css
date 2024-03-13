@@ -40,20 +40,26 @@ h1 {
     text-shadow: 2px 2px 5px orange;
     /* define a sombra do titulo */
 
-
-
+    /* espaçamento entre as letras */
+    letter-spacing: 3px;
+    /* tirar o "negrito" */
+    font-weight: normal;
+    
+    /* propriedades com prefixo -webkit, -moz, -o-
+    propriedades relacionada a alguns navegadores. */
+-webkit-text-stroke: 1px blueviolet;
 }
 
-h2{
+h2 {
 
-        font-size: 20px;
-        border-bottom-style: solid;
-        border-bottom-width: 5px;
-        border-left-style: solid;
-        border-left-width: 5px;
-        border-left-color: black;
-        /* margin-left: 30px; */
-        padding-left: 5px;
+    font-size: 20px;
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+    border-left-style: solid;
+    border-left-width: 5px;
+    border-left-color: black;
+    /* margin-left: 30px; */
+    padding-left: 5px;
 
 
 }
