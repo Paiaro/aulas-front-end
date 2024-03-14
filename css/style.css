@@ -1,10 +1,12 @@
 /* regras de formatação (CSS) */
 /* seletor universal  (*{seletor})
 altera o comportamento do CSS e evita os problemas do width, height, padding e border ao memso tempo. */
-*{box-sizing: border-box;}
+* {
+    box-sizing: border-box;
+}
 
 h1 {
- margin: 0;
+    margin: 0;
     /* exercicio
     criar uma nova regra CSS para estilizar o elemento h1 com as seguintes caracteristicas: 
     
@@ -121,7 +123,7 @@ figure img {
     transition: 0.5s;
     transform: scale(0.9);
     filter: grayscale(100%);
-    
+
 }
 
 /* hover (passar o mouse) */
@@ -161,7 +163,7 @@ li {
     background-color: #ffa781;
     padding: 8px;
     border-radius: 4px;
-margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 /* regras para menu e seus links */
@@ -184,22 +186,74 @@ nav a {
     transform: scale(0.9);
     transition: 1s;
 }
+
 /* regra para o estado de acionamento dos links */
 
-nav a:hover, nav a:focus  {
-background-color: grey;
- /* transition: 5s; */
- transform: scale(1);
+nav a:hover,
+nav a:focus {
+    background-color: grey;
+    /* transition: 5s; */
+    transform: scale(1);
 }
-nav a:first-child{
+
+nav a:first-child {
 
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
 
 }
 
-nav a:last-child{
+nav a:last-child {
 
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
+}
+
+ul li {
+    list-style-type: square;
+
+}
+
+ul {
+
+    margin: 0;
+    padding: 0;
+    list-style-position: inside;
+
+}
+
+/* pseudo elemento (alterar o marcador da lista) */
+ul li::marker {
+
+    content: "📢 ";
+    font-size: 20px;
+    font-weight: bold;
+    color: aquamarine;
+}
+
+ul li:first-child {
+
+    font-weight: bold;
+    color: #5b0e2d;
+}
+
+ul li:last-child {
+    font-style: italic;
+
+}
+
+ul li:nth-child(3) {
+
+    color: aquamarine;
+
+}
+/* cores alternadas */
+/* (even ) par (odd) impar */
+ul li:nth-child(even){
+
+    background-color: #5b0e2d;
+}
+ul li:nth-child(odd){
+
+    background-color: aquamarine;
 }
