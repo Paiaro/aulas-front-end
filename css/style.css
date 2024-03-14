@@ -252,8 +252,26 @@ ul li:nth-child(3) {
 ul li:nth-child(even){
 
     background-color: #5b0e2d;
+    color: aliceblue;
 }
 ul li:nth-child(odd){
 
     background-color: aquamarine;
+}
+details{
+
+    border: solid 2px;
+padding: 10px;
+}
+summary{
+
+    font-weight: bold;
+    cursor: pointer;
+}
+
+summary::marker {
+
+content: "💬 ";
+}
+details[open] summary::marker { content: "👁‍🗨 ";
 }
