@@ -27,7 +27,7 @@
 		}
 
 		#conteiner-flexbox {
-			height: 600px;
+			height: 1100px;
 			width: 80%;
 			margin: auto;
 			background-color: aqua;
@@ -36,10 +36,15 @@
 			display: flex;
 
 			/* ajuste das box dentro do flexbox */
-			justify-content: space-between;
+			/* se estiver na direção column, se comporta como alinhamento vertical */
+			justify-content: flex-start;
 
 			/* alinhamento dos intens */
+			/* funciona de forma contraria do justify-content */
 			align-items: flex-start;
+			flex-direction:column;
+			/*(direção) ROW padrão, alinhamento horizontal */
+
 		}
 	</style>
 
