@@ -94,7 +94,30 @@
                 justify-content: space-evenly;
                 align-items: center;
             }
+        }
 
+        @media (min-width: 768px) {
+
+            main {
+                display: flex;
+                /* habilitando a quebra da linha (row) ou seja, se nao tiver mais espaço para encaixar lado a lado acontecera a quebra para a linha de baixo*/
+                flex-wrap: wrap;
+                /* cria uma bracha entre as caixas */
+                gap: 10px;
+            }
+
+            .um {
+                width: 69%;
+            }
+
+            .dois {
+                width: 29%;
+            }
+
+            .tres {
+                width: 100%;
+                
+            }
         }
 
         /* 2) regras de uso condicional */
