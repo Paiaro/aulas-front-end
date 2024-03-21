@@ -102,21 +102,24 @@
                 display: flex;
                 /* habilitando a quebra da linha (row) ou seja, se nao tiver mais espaço para encaixar lado a lado acontecera a quebra para a linha de baixo*/
                 flex-wrap: wrap;
-                /* cria uma bracha entre as caixas */
-                gap: 10px;
+                /* cria uma bracha entre as caixas ele cria uma quebra caso nao tenha espaço*/
+                /*gap: 10px;*/
+                justify-content: space-between;
+
+
             }
 
             .um {
-                width: 69%;
+                width: 70%;
             }
 
             .dois {
-                width: 29%;
+                width: 30%;
             }
 
             .tres {
                 width: 100%;
-                
+
             }
         }
 
