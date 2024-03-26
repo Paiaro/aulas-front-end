@@ -5,14 +5,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Variaveis no CSS</title>
-<style>
+    <style>
+        /* declarando variaveis */
+        :root {
 
+            /* --nome: valor */
+            --cor: #00224D;
+            --fonte: verdana;
+            --espacamento: 8px;
+        }
 
+        h1 {
+            color: var(--cor);
+        }
 
-
-
-    
-</style>
+        h2 {
+            font-family: var(--fonte);
+            border: solid var(--cor) var(--espacamento);
+            font-family: var(--fonte);
+        }
+        p{
+            font-family: var(--fonte);
+        }
+    </style>
 
 </head>
 
