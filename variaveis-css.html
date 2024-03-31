@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt- br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variaveis no CSS</title>
+    <style>
+        /* declarando variaveis */
+        :root {
+
+            /* --nome: valor */
+            --cor: #00224D;
+            --fonte: verdana;
+            --espacamento: 8px;
+        }
+
+        h1 {
+            color: var(--cor);
+        }
+
+        h2 {
+            font-family: var(--fonte);
+            border: solid var(--cor) var(--espacamento);
+            font-family: var(--fonte);
+        }
+
+        p {
+            font-family: var(--fonte);
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1>Usando variaveis no CSS</h1>
+    <hr>
+    <h2>Front-end</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci repudiandae ipsam et rerum a enim doloremque
+        provident nulla, facere, dicta expedita. Velit earum laborum, eum amet repellendus maiores? Iusto, autem.</p>
+    <h2>back-end</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur placeat consequatur quo, unde excepturi
+        doloribus illo, ipsum corporis, necessitatibus cupiditate aliquam fugit nemo quae quis ipsa? Ab amet sapiente
+        magnam?</p>
+</body>
+
+</html>
